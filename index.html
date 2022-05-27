@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- bootstrap -->
+    
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <!-- bootstrap -->
+    
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -22,7 +22,7 @@
     />
   </head>
   <body>
-     <header>
+    <header>
       <h1>Bar-Restaurant</h1>
       <img class="logo" src="images/logoHeader.png" alt="Logo" />
       <a class="btn-sm green-color whatsApp" href="https://api.whatsapp.com/send?phone=34634578535">
@@ -33,26 +33,29 @@
 
     <div class="row container-fluid">
       <div class="opcion col-md-6">
-        <img class="opcion-img" src="images/entrante.jpg" alt="per picar" />
+       
+        <a href="#perpicar"><img class="opcion-img" src="images/entrante.jpg" alt="per picar" /></a>
         <h3 class="opcion-title">Per picar...</h3>
+        
       </div>
       <div class="opcion col-md-6">
-        <img class="opcion-img" src="images/ensalada.jpg" alt="per picar" />
+        <a href="#amanides"><img class="opcion-img" src="images/ensalada.jpg" alt="per picar" /></a>
         <h3 class="opcion-title">Amanides...</h3>
       </div>
       <div class="opcion col-md-6">
-        <img class="opcion-img" src="images/plats.jpg" alt="per picar" />
-        <h3 class="opcion-title">Plats</h3>
+        <a href="#plats"><img class="opcion-img" src="images/plats.jpg" alt="per picar" /></a>
+        <h3 class="opcion-title">Plats...</h3>
       </div>
       <div class="opcion col-md-6">
-        <img class="opcion-img" src="images/torrades.jpg" alt="per picar" />
+        <a href="#torrades"><img class="opcion-img" src="images/torrades.jpg" alt="per picar" /></a>
         <h3 class="opcion-title">Torrades...</h3>
       </div>
 
+    
       <table class="table bg-danger">
         <thead>
           <tr>
-            <th scope="col">PER PICAR</th>
+            <th id="perpicar" class=""col">PER PICAR</th>
             <th scope="col">PREU</th>
           </tr>
         </thead>
@@ -92,7 +95,7 @@
       <table class="table bg-danger">
         <thead>
           <tr>
-            <th scope="col">AMANIDES PER COMPARTIR</th>
+            <th id="amanides" scope="col">AMANIDES PER COMPARTIR</th>
             <th scope="col">PREU</th>
           </tr>
         </thead>
@@ -128,7 +131,7 @@
       <table class="table bg-danger">
         <thead>
           <tr>
-            <th scope="col">PLATS</th>
+            <th id="plats" scope="col">PLATS</th>
             <th scope="col">PREU</th>
           </tr>
         </thead>
@@ -175,7 +178,7 @@
       <table class="table bg-danger">
         <thead>
           <tr>
-            <th scope="col">TORRADES</th>
+            <th id="torrades" scope="col">TORRADES</th>
             <th scope="col">PREU</th>
           </tr>
         </thead>
@@ -207,7 +210,6 @@
     </div>
     
 
-    <!-- bootstrap -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -223,6 +225,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <!-- bootstrap -->
+  
   </body>
 </html>
