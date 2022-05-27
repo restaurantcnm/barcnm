@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Bar-Restaurant</h1>
+      <img class="logo" src="images/logoHeader.png" alt="Logo" />
+      <button type="button" class="btn btn-sm green-color whatsApp">
+        <span class="fa-brands fa-whatsapp fa-4x"></span>
+        Demana els teus plats i reserva hora
+      </button>
+    </header>
+
+    <div class="row container-fluid">
+      <div class="opcion col-md-6">
+        <img class="opcion-img" src="images/entrante.jpg" alt="per picar" />
+        <h3 class="opcion-title">Per picar...</h3>
+      </div>
+      <div class="opcion col-md-6">
+        <img class="opcion-img" src="images/ensalada.jpg" alt="per picar" />
+        <h3 class="opcion-title">Amanides...</h3>
+      </div>
+      <div class="opcion col-md-6">
+        <img class="opcion-img" src="images/plats.jpg" alt="per picar" />
+        <h3 class="opcion-title">Plats</h3>
+      </div>
+      <div class="opcion col-md-6">
+        <img class="opcion-img" src="images/torrades.jpg" alt="per picar" />
+        <h3 class="opcion-title">Torrades...</h3>
+      </div>
+
+      <table class="table bg-danger">
+        <thead>
+          <tr>
+            <th scope="col">PER PICAR</th>
+            <th scope="col">PREU</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Patates amb salsa brava.
+            </td>
+            <td>5'50€</td>
+          </tr>
+          <tr>
+            <td>
+              Mix de pernil i formatge amb coca de vidre amb tomàquet.
+            </td>
+            <td>7'50€</td>
+          </tr>
+          <tr>
+            <td>
+              Assortit de croquetes (porquet amb poma, bolets i bullit).
+            </td>
+            <td>6'00€</td>
+          </tr>
+          <tr>
+            <td>
+              Nachos amb guacamole, salsa agra,carn i formatge cheddar.
+            </td>
+            <td>6'90€</td>
+          </tr>
+          <tr>
+            <td>
+              Seitons en vinagre.
+            </td>
+            <td>7'00€</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table bg-danger">
+        <thead>
+          <tr>
+            <th scope="col">AMANIDES PER COMPARTIR</th>
+            <th scope="col">PREU</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Amanida amb formatge de cabra al forn caramel·litzada (panses,
+              nous, maduixes, ceba cruixient, tomàquet i vinagreta de mel i
+              mostassa).
+            </td>
+            <td>8'50€</td>
+          </tr>
+          <tr>
+            <td>
+              Amanida capresse (tomàquet, motzzarella, alvocat i salsa pesto).
+            </td>
+            <td>6'00€</td>
+          </tr>
+          <tr>
+            <td>
+              Pebrots del piquillo amb tonyina i balsàmic de mòdena.
+            </td>
+            <td>6'00€</td>
+          </tr>
+          <tr>
+            <td>
+              Amanida de l'horta (enciam , tomàquet, pastanaga i ceba).
+            </td>
+            <td>7'00€</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table bg-danger">
+        <thead>
+          <tr>
+            <th scope="col">PLATS</th>
+            <th scope="col">PREU</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Botifarra sobre patata fornera amb ceba caramel·litzada.
+            </td>
+            <td>8'50€</td>
+          </tr>
+          <tr>
+            <td>
+              Secret ibèric a la planxa.
+            </td>
+            <td>8'50€</td>
+          </tr>
+          <tr>
+            <td>
+              Fingers de pollastre amb patates fregides acompanyat de salses.
+            </td>
+            <td>6'00€</td>
+          </tr>
+          <tr>
+            <td>
+              Hamburguesa Big (hamburguesa amb carn mixta, enciam, tomàquet,
+              mostassa, ketchup i maionesa).
+            </td>
+            <td>8'50€</td>
+          </tr>
+          <tr>
+            <td>
+              Juliana de patates amb ous estrellats i pernil.
+            </td>
+            <td>7'50€</td>
+          </tr>
+          <tr>
+            <td>
+              Pasta amb salsa carbonara / bolonyesa.
+            </td>
+            <td>7'00€</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table bg-danger">
+        <thead>
+          <tr>
+            <th scope="col">TORRADES</th>
+            <th scope="col">PREU</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Torrada de pernil salat amb rodanxes de tomàquet, mostassa i mel.
+            </td>
+            <td>6'50€</td>
+          </tr>
+          <tr>
+            <td>
+              Torrada de sobrassada amb formatge brie i mel.
+            </td>
+            <td>6'50€</td>
+          </tr>
+          <tr>
+            <td>
+              Torrada de l'horta amb alvocat, llavors de sèsam, melmelada de
+              tomaquet i ous remenat.
+            </td>
+            <td>6'50€</td>
+          </tr>
+        </tbody>
+      </table>
+      <footer id="footer">
+        <p class="footer-copy">© Copyright 2022 Iván. 🧑💦</p>
+      </footer>
+    </div>
+    
+
+    <!-- bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap -->
+  </body>
+</html>
